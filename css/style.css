@@ -1,0 +1,205 @@
+#title-logo {
+    margin-top: 70px;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    max-width: 960px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.nav-ul {
+    padding-right: 60px;
+}
+
+.resu {
+    list-style: none;
+    float: right;
+    display: none;
+}
+
+.nav-li {
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style: none;
+}
+
+.link {
+    opacity: 0.6;
+    color: black;
+    text-decoration: none;
+}
+
+.main-visial {
+    width: 100%;
+    margin-top: 10px;
+    height: 400px;
+    background-image: url(../s_ダウンロード.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-visial::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+}
+
+.main-logo {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    top: 43%;
+    left: 38%;
+    position: absolute;
+    font-family: "游ゴシック", "Yu Gothic";
+    letter-spacing: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    line-height: 30px;
+    font-family: "游ゴシック";
+}
+
+.gengo {
+    display: flex;
+    justify-content: space-around;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.html {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.css {
+    width: 300px;
+    line-height: 30px;
+}
+
+.JS {
+    width: 300px;
+    margin-top: 15px;
+}
+
+img {
+    width: 255px;
+    height: 255px;
+}
+
+.css-img {
+    width: 200px;
+    height: auto;
+    padding-left: 60px;
+}
+
+.button {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-ul {
+    margin-left: 100px;
+}
+
+.footer-li {
+    list-style: none;
+    float: left;
+    padding: 25px;
+}
+
+.end {
+    float: right;
+    padding-right: 100px;
+}
+
+.top{
+    color: black;
+}
+
+@media screen and (max-width:639px) {
+    /*ここに携帯用のCSSを記述する*/
+    #title-logo {
+        font-size: 15px;
+    }
+    .main-logo {
+        font-size: 30px;
+    }
+    .gengo {
+        display: block;
+    }
+    .none {
+        display: none;
+        width: 100%;
+        height: 100px;
+        background-color: yellow;
+        z-index: 10000;
+    }
+    .nav-li {
+        float: none;
+    }
+    .resu {
+        display: block;
+        cursor: pointer;
+    }
+    .footer-li {
+        float: none;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .main-logo {
+        top: 0;
+        left: 0;
+        top: 43%;
+        padding-left: 90px;
+    }
+    .html-img {
+        padding-left: 60px;
+    }
+    .html-sentence {
+        padding-left: 60px;
+    }
+    .css-img {
+        padding-left: 85px;
+    }
+    .css-sentence {
+        padding-left: 75px;
+    }
+    .JS-img {
+        padding-left: 50px;
+    }
+    .JS-sentence {
+        padding-left: 60px;
+    }
+}

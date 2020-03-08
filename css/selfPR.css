@@ -1,0 +1,136 @@
+#title-logo {
+    padding-top: 70px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    max-width: 960px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.nav-li {
+    list-style: none;
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.logo-a {
+    opacity: 1.0;
+    text-decoration: none;
+    color: black;
+}
+
+.title-logo {
+    padding-left: 150px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+#PR-logo {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.hobby-logo {
+    width: 960px;
+    margin: 60px auto;
+}
+
+.hobby {
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(250, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: rgba(250, 0, 0, 0.3);
+}
+
+.so-img {
+    width: 330px;
+    margin-right: 100px;
+    height: auto;
+}
+
+.ho-sentence {
+    font-family: cursive;
+}
+
+.skill-logo {
+    width: 960px;
+    margin: 60px auto;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(250, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: rgba(250, 0, 0, 0.3);
+}
+
+.sk-sentence {
+    font-family: cursive;
+    margin-top: 35px;
+}
+
+.sk-img {
+    width: 330px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.top {
+    text-decoration: none;
+    color: black;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-ul {
+    margin-left: 100px;
+}
+
+.footer-li {
+    list-style: none;
+    float: left;
+    padding: 25px;
+}
+
+.end {
+    float: right;
+    padding-right: 100px;
+}

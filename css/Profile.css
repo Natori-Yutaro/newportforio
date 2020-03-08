@@ -1,0 +1,102 @@
+#title-logo {
+    padding-top: 70px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    max-width: 960px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+
+.nav-li {
+    list-style: none;
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.logo-a {
+    opacity: 1.0;
+    text-decoration: none;
+    color: black;
+}
+
+.title-logo {
+    padding-left: 150px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.keireki {
+    padding-left: 150px;
+    margin: 0;
+    line-height: 20px;
+    padding-top: 50px;
+}
+
+.me-li {
+    line-height: 40px;
+}
+
+.ditels ul {
+    padding-top: 90px;
+    padding-left: 150px;
+}
+
+
+
+img {
+    padding-top: 50px;
+    width: 200px;
+    height: 300px;
+}
+
+.top{
+    text-decoration: none;
+    color: black;
+}
+
+.me {
+    display: flex;
+    padding-left: 150px;
+}
+
+.button {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-ul {
+    margin-left: 100px;
+}
+
+.footer-li {
+    list-style: none;
+    float: left;
+    padding: 25px;
+}
+
+.end {
+    float: right;
+    padding-right: 100px;
+}

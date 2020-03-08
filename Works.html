@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Works.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>Works</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="title-logo">
+            <font face="cursive"><a class="title" href="./index.html"><b>Yutaro Natori</b></a> </font>
+        </h1>
+        <div id="nav">
+            <ul class="nav-ul"></ul>
+            <div class="none">
+                <li class="nav-li">
+                    <a class="link" href="Works.html">
+                        <font face="cursive">Works</font>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="link" href="./selfPR.html">
+                        <font face="cursive">SelfPR</font>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="link" href="Profile.html">
+                        <font face="cursive">Profile</font>
+                    </a>
+                </li>
+            </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <h2 class="works-logo">
+            <font face="cursive">Works</font>
+        </h2>
+
+        <div class="content">
+            <div class="environmentHP">
+                <a class="works-link" href="https://natori-yutaro.github.io/environment-SPA/"><img class="enviornment"
+                        src="2020-02-27 (2).png" alt="環境ＨＰ"></a>
+
+                <p class="environment-setu">このサイトは、環境問題や環境に関して興味を持ってほしくて作ったSPAです。<br>
+                    言語はJSのライブラリのReactを使用しています。<br>
+                    下のほうには軽く自分の紹介も乗っけているので、ぜひご覧になってください。<br>
+                    このサイトの装飾はほぼCSSで行っています。あとはReactならではのコンポーネントを使用しました。</p>
+                
+                
+            </div>
+
+            <div class="club-HP">
+                <a class="works-link" href="https://natori-yutaro.github.io/club-hp/index.html"><img class="club" src="2020-03-02 (2).png" alt="部活動ＨＰ"></a>
+
+                <p class="club-setu">このサイトは、自分が大学で所属していたサッカー部のHPを作ってみました。<br>
+                    MENUの所は空ボタンになっているためクリックしても何も起こりません。INTROの所はタブバーになっておりそこはクリックしたら画面が変わるようになっています。<br> 
+                    このサイトは主にJQで制作しています。</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="button">
+        <a class="top" href="#"><i class="fas fa-angle-up fa-5x"></a></i>
+    </div>
+
+    <div class="footer">
+        <div id="nav">
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="link" href="./Profile.html">
+                        <font face="cursive">Profile</font>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a class="link" href="./selfPR.html">
+                        <font face="cursive">SelfPR</font>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a class="link" href="./Works.html">
+                        <font face="cursive">Works</font>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="end">created by 名執祐太郎</p>
+        </div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+        <script>
+            $(function ()
+            {
+                $(".link").stop(true).on({
+                    mouseover: function ()
+                    {
+                        $(this).animate({
+                            opacity: 1,
+
+                        }, 50);
+                    },
+                    mouseout: function ()
+                    {
+                        $(this).animate({
+                            opacity: 0.6,
+
+                        }, 50);
+                    }
+                });
+
+                $(".top").click(function (event)
+                {
+                    event.preventDefault();
+                    $("html,body").animate({
+                        scrollTop: 0
+                    }, 250);
+                });
+
+
+            });
+        </script>
+</body>
+
+</html>

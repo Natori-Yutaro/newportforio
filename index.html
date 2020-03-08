@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>natosite</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="title-logo">
+            <font face="cursive"><a class="title" href="./index.html"><b>Yutaro Natori</b></a> </font>
+        </h1>
+        <div id="nav">
+            <ul class="nav-ul">
+                <li class="resu"><i class="fas fa-align-justify"></i></li>
+                <div class="none">
+                    <li class="nav-li">
+                        <a class="link" href="Works.html">
+                            <font face="cursive">Works</font>
+                        </a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="link" href="./selfPR.html">
+                            <font face="cursive">SelfPR</font>
+                        </a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="link" href="Profile.html">
+                            <font face="cursive">Profile</font>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="main-visial">
+            <p class="main-logo"><i>常に挑戦</i></p>
+        </div>
+
+        <div class="My Goal">
+            <h2>
+                <font face="cursive">My Goal</font>
+            </h2>
+            <p><b>替えの利かない存在に・・・</b></p>
+            <p>いまAI化が進み色々な仕事が淘汰されていく中でどう生きるか。。。</p>
+            <p>自分が興味を持ったことはとことん挑戦！</p>
+            <p>それが私のモットーです。</p>
+            <p>自分の能力を上げて代えの利かない存在になり、みんなから信頼されることが目標です。</p>
+        </div>
+
+        <div class="Ability">
+            <h2>
+                <font face="cursive">Ability</font>
+            </h2>
+            <div class="gengo">
+                <div class="html">
+                    <img class="html-img" src="./1200px-HTML5_logo_and_wordmark.svg.png" alt="html">
+                    <p class="html-sentence">プログラミングの基礎となるHTMLを勉強して扱うことができるようになりました。まだまだ未熟ですが、ウェイトが軽い開発ならば問題なく開発することができます。</p>
+                </div>
+
+                <div class="css">
+                    <img class="css-img" src="./css.jpg" alt="css">
+                    <p class="css-sentence">webの装飾を担当するCSS。この言語を屈指することでHPなどをとても綺麗にすることができます。まだ使ったことないプロパティなどがあり、まだまだ勉強の余地がありますが扱えます！</p>
+                </div>
+
+                <div class="JS">
+                    <img class="JS-img" src="js-logo.png" alt="JS">
+                    <p class="JS-sentence">JSとは、ユーザー側のwebブラウザと、webサービスの相互間のやり取りを円滑にする言語です。まだまだ修行が足りませんが、jQueryも扱うことができます。</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="button">
+            <a class="top" href="#"><i class="fas fa-angle-up fa-5x"></a></i>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="nav">
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="link" href="./Profile.html">
+                        <font face="cursive">Profile</font>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a class="link" href="./selfPR.html">
+                        <font face="cursive">SelfPR</font>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a class="link" href="./Works.html">
+                        <font face="cursive">Works</font>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="end">created by 名執祐太郎</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+    <script>
+        $(function ()
+        {
+            $(".link").stop(true).on({
+                mouseover: function ()
+                {
+                    $(this).animate({
+                        opacity: 1,
+
+                    }, 50);
+                },
+                mouseout: function ()
+                {
+                    $(this).animate({
+                        opacity: 0.6,
+
+                    }, 50);
+                }
+            });
+
+            $(".top").click(function (event)
+            {
+                event.preventDefault();
+                $("html,body").animate({
+                    scrollTop: 0
+                }, 250);
+            });
+
+            $(".resu").on("click", function ()
+            {
+                $(this).nextAll().slideToggle()
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>

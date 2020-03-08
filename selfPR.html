@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/selfPR.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1 id="title-logo">
+            <font face="cursive"><a class="logo-a" href="./index.html">Yutaro Natori</a> </font>
+        </h1>
+        <div id="nav">
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a class="link" href="./Works.html">
+                        <font face="cursive">Works</font>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="link" href="./selfPR.html">
+                        <font face="cursive">SelfPR</font>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="link" href="./Profile.html">
+                        <font face="cursive">Profile</font>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <font face="cursive">
+            <h1 id="PR-logo">selfPR</h1>
+        </font>
+
+        <font face="cursive">
+            <h2 class="hobby-logo">HOBBY</h2>
+        </font>
+
+        <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="600" class="hobby">
+            <img class="so-img" src="./IMG_2069.JPG" alt="集合写真">
+            <p class="ho-sentence">
+                私の趣味は3歳から現在までやっている<span>サッカー</span>です！<br />サッカーはとても奥深くチーム一人一人が力を合わせないと試合に勝つことができません。そうやってみんなで頑張って試合に勝つことがとても楽しいスポーツです！私は幼いころからサッカーを通して、チーム活動の経験を積んできました。なので私はチームワークでこなす仕事や、我慢強さなど様々な力を成長させることができました！これが私の強みの一つだと思っています。<br />
+                それとは他に、読書やカラオケなども趣味の中の一つです。読書はサスペンス系の本が好きです。
+            </p>
+        </div>
+
+        <font face="cursive">
+            <h2 class="skill-logo">SKILL</h2>
+        </font>
+        
+        <div class="skill" data-aos="fade-left" data-aos-offset="200" data-aos-duration="600">
+            <p class="sk-sentence">私は、大学三年生の8月から3月までプログラミングスクールに通っていました。その中で、経験したことある言語は、HTML、CSS、javascript、JQuery、Reactです。この中で、一番力を入れたのは、javascriptですが、全体的には言語を広く浅くやってきたので、あまり専門的なことはできませんがHPでしたら作ることができます。詳しくはこのHPのWorksのページにありますので、そこをご覧になってください。
+            </p>
+            <img class="sk-img" src="./IMG_3089-1024x683.jpg" alt="勉強写真">
+            <p class="sk-sentence"></p>
+        </div>
+    </div>
+
+
+    <div class="button">
+        <a class="top" href="#"><i class="fas fa-angle-up fa-5x"></a></i>
+    </div>
+
+    <div class="footer">
+        <div id="nav">
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="link" href="./Profile.html">
+                        <font face="cursive">Profile</font>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a class="link" href="./selfPR.html">
+                        <font face="cursive">SelfPR</font>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a class="link" href="./Works.html">
+                        <font face="cursive">Works</font>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="end">created by 名執祐太郎</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+    <script>
+        $(function ()
+        {
+
+            AOS.init();
+
+            $(".link").stop(true).on({
+                mouseover: function ()
+                {
+                    $(this).animate({
+                        opacity: 1,
+
+                    }, 50);
+                },
+                mouseout: function ()
+                {
+                    $(this).animate({
+                        opacity: 0.6,
+
+                    }, 50);
+                }
+            });
+
+
+            $(".top").click(function (event)
+            {
+                event.preventDefault();
+                $("html,body").animate({
+                    scrollTop: 0
+                }, 250);
+            });
+        })
+    </script>
+</body>
+
+</html>
